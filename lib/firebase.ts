@@ -4,8 +4,7 @@ import 'firebase/firestore';
 import 'firebase/storage';
 
 const firebaseConfig = {
- 
-};
+
   
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig)
