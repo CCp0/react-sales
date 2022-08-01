@@ -14,6 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+/*Loading circle animation*/
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.75s linear infinite;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -21,6 +38,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: rebeccapurple;
   }
 }
