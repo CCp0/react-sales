@@ -2,10 +2,29 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-size: 24px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+/* Navbar Styling */
+.navbar{
+  text-align: center;
+  margin: 1em;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline;
+}
+.navbar ul li button{
+  font-size: 2em;
+}
+#logo{
+  background-color: red;
+  float: left;
+}
+#login{
+  float: right;
+}
 a {
   color: inherit;
   text-decoration: none;
