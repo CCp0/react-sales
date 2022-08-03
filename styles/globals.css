@@ -18,6 +18,9 @@ body {
 .navbar ul li button{
   font-size: 2em;
 }
+#navPad{
+  padding: 2em;
+}
 #logo{
   background-color: red;
   float: left;
@@ -56,7 +59,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: rebeccapurple;
+    color: black;
+    background: seashell;
   }
 }
